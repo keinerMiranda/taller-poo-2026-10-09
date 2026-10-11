@@ -53,7 +53,7 @@ public class Mascota {
         }else if (this.peso>10) {
            valor = 45000;
         }
-        if (this.edad>8){
+        if (this.edad>=8){
             valor = valor + 12000;
         }
         return valor;
